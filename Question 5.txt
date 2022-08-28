@@ -1,0 +1,19 @@
+Write a Function that returns a interest amount for a Principal Amount for a term with a specific rate of interest  Let the inputs for the function be in the form of parameters. 
+
+Answers:  
+
+
+using System;
+
+class Question_6
+{
+   
+    public static void Main()
+    {
+   
+        float P = 10, R = 150, T = 2;
+
+                float SI = (P * T * R) / 100;
+        Console.Write("Simple interest = " + SI\n);
+    }
+}
